@@ -39,6 +39,7 @@ Text Domain: Logistcwr
 
 :root{
   --st-theme-color-one:#ed2224;
+  /* --st-theme-color-two:#166232; */
   --st-theme-color-two:#003d4d;
   --st-theme-body-color:#525459;
   --st-theme-color-white:#fff;
@@ -214,7 +215,8 @@ Text Domain: Logistcwr
 .st-header-menu-area.style2 .st__logo__overlay::before {
   transform: skewX(25deg);
   width: 22%;
-  height: 124px;
+  /* height: 124px; */
+  height: 108px;
   top: -34px;
   left: -28px;
 }
@@ -230,7 +232,8 @@ Text Domain: Logistcwr
   content: "";
   top: -25px;
   left: -44px;
-  background: var(--st-theme-color-two);
+  /* background: var(--st-theme-color-two); */
+  background: #ebebeb;
   width: 26%;
   height: 122px;
   z-index: 1;
@@ -241,7 +244,8 @@ Text Domain: Logistcwr
   content: "";
   top: -25px;
   left: 22%;
-  background: var(--st-header-bg);
+  /* background: var(--st-header-bg); */
+  background: #ebebeb;
   width: 3%;
   height: 93px;
   z-index: 1;
@@ -435,7 +439,7 @@ Text Domain: Logistcwr
 }
 .st-header-menu-area.style2 .is-sticky {
   background: var(--st-project-bg);
-  padding: 33px 0;
+  padding: 18px 0;
 }
 .st-header-menu-area.style2 .is-sticky::before {
   background-color: transparent;
@@ -462,7 +466,7 @@ Text Domain: Logistcwr
 /* Header Style Two */
 .st-header-menu-area.style2 {
   background: var(--st-project-bg);
-  padding: 33px 0;
+  padding: 18px 0;
 }
 .st-header-menu-area.style2 .st__main__menu {
   left: 115px;
