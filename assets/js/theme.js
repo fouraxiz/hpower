@@ -11,11 +11,11 @@
 	// Nice Select Js
 	$('select').niceSelect();
 
-// Slider Carousel
+   // Slider Carousel
    $('.st__slider__carousel').owlCarousel({
     loop: true,
-    autoplay: false,
-    autoplayTimeout: 10000,
+    autoplay: true,
+    autoplayTimeout: 5000,
     dots: false,
     dotsEach: false,
     lazyLoad:true,
