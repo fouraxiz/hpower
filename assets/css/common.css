@@ -3,7 +3,7 @@
 /*  PRELOADER CSS START
 /*----------------------------------------*/
 #loading {
-  background-color: var(--st-theme-color-two);
+  background-color: var(--st-project-bg);
   height: 100%;
   width: 100%;
   position: fixed;
@@ -26,7 +26,7 @@
 }
 
 #loading {
-  background-color: var(--st-theme-color-two);
+  background-color: var(--st-project-bg);
   height: 100%;
   width: 100%;
   position: fixed;
