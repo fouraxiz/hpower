@@ -169,7 +169,7 @@
         display: none;
     }
     .is-sticky {
-      background: var(--st-theme-color-two) !important;
+      background: var(--st-project-bg) !important;
       padding: 20px 0 !important;
   }
     .st__dark .st-header-menu-area,
@@ -177,10 +177,13 @@
       background: var(--st-theme-color-two);
   }    
   .style2.st-header-menu-area{
-      background: var(--st-theme-color-two);
+      background: var(--st-project-bg);
   }
+
+  
 }
 @media (max-width: 576px){
+  
     .st-header-menu-area .col-sm-2 {
         flex: 0 0 auto;
         width: 16.66666667%;
